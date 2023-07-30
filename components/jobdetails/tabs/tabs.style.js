@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     ...SHADOWS.medium,
   }),
   btnText: (name, activeTab) => ({
-    fontFamily: "JBMRegular",
+    fontFamily: "sans-serif",
     fontSize: SIZES.small,
     color: name === activeTab ? COLORS.white : COLORS.greenBackground,
   }),

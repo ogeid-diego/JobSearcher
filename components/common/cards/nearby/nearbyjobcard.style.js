@@ -32,12 +32,12 @@ const styles = StyleSheet.create({
   },
   jobName: {
     fontSize: SIZES.medium,
-    fontFamily: "JBMBold",
+    fontFamily: "sans-serif",
     color: COLORS.searchWrapper,
   },
   jobType: {
     fontSize: SIZES.small + 2,
-    fontFamily: "JBMRegular",
+    fontFamily: "sans-serif",
     color: COLORS.greenBackground,
     marginTop: 3,
     textTransform: "capitalize",
