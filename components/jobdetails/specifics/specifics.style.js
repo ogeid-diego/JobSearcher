@@ -16,10 +16,10 @@ const styles = StyleSheet.create({
   },
   pointsContainer: {
     marginVertical: SIZES.small,
+    flexWrap: "wrap"
   },
   pointWrapper: {
     flexDirection: "row",
-    justifyContent: "flex-start",
     alignItems: "flex-start",
     marginVertical: SIZES.small / 1.25,
   },

@@ -17,9 +17,12 @@ const COLORS = {
 };
 
 const FONT = {
-  regular: "JBMBold",
-  medium: "JBMSemibold",
-  bold: "JBMRegular",
+  // regular: "JBMRegular",
+  // medium: "JBMSemibold",
+  // bold: "JBMBold",
+  regular: "sans-serif",
+  medium: "sans-serif",
+  bold: "sans-serif",
 };
 
 const SIZES = {

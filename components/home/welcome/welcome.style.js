@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
   searchWrapper: {
     flex: 1,
-    backgroundColor: COLORS.hello,
+    backgroundColor: COLORS.white,
     marginRight: SIZES.small,
     justifyContent: "center",
     alignItems: "center",
@@ -35,11 +35,11 @@ const styles = StyleSheet.create({
   },
   searchInput: (searchTerm)  => ({
     fontFamily: FONT.regular,
-    color: COLORS.white,
+    color: COLORS.hello,
     width: "100%",
     height: "100%",
     paddingHorizontal: SIZES.medium,
-    opacity: searchTerm === "" ? 0.2 : 0.8
+    opacity: searchTerm === "" ? 0.4 : 0.8
   }),
   searchBtn: {
     width: 50,
@@ -63,8 +63,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: SIZES.small,
     borderRadius: SIZES.medium,
     borderWidth: 2,
-    borderColor: activeJobType === item ? COLORS.white : COLORS.searchWrapper,
-    backgroundColor: activeJobType === item ? COLORS.white : "",
+    borderColor: activeJobType === item ? COLORS.hello : COLORS.searchWrapper,
+    backgroundColor: activeJobType === item ? COLORS.white : COLORS.greenBackground,
   }),
   tabText: (activeJobType, item) => ({
     fontFamily: FONT.medium,
